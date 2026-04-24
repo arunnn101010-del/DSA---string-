@@ -1,7 +1,7 @@
 # Promblem - group anagram 
 # Appraoch - hashmaps + sorting 
-# Time and space complexity - O(n*nlog n) & O(1)
-# LLetcode amd diffculty level - 498 & medium 
+# Time and space complexity - O(n* k log k) & O(n*k)
+# Letcode amd diffculty level - 49 & medium 
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
